@@ -1,2 +1,12 @@
 // Do not add any CSS to this file in the theme sources.
 // This file can be overridden to add project-specific CSS.
+
+.app-footer-copyright {
+  background: $darkest-color;
+  text-align: center;
+  bottom: 0;
+
+  p {
+    margin: 0 0.1em;
+  }
+}
