@@ -10,3 +10,11 @@
     margin: 0 0.1em;
   }
 }
+
+// オーバーライド
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: $dark-color;
+  color: $text-color;
+}
