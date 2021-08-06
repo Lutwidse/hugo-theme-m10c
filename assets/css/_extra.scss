@@ -19,7 +19,6 @@ body {
   color: $text-color;
 }
 
-// オーバーライド
 h1,
 h2,
 h3,
@@ -30,4 +29,28 @@ h6 {
   border-left-style: solid;
   border-left-color: #66daf6;
   padding: 0.5em 0.5em;
+}
+
+.footnote-ref {
+  color: #9bc4e2;
+}
+
+// 追加
+p {
+  code {
+    color: $text-color;
+    background-color: #2e3338;
+    text-overflow: ellipsis;
+  }
+}
+
+table,
+td,
+th {
+  border: 0.1em solid #c4c1c1;
+}
+
+table {
+  width: auto;
+  border-collapse: collapse;
 }
